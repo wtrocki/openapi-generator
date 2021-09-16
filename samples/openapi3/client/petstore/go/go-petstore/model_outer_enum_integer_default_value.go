@@ -25,7 +25,8 @@ const (
 	OUTERENUMINTEGERDEFAULTVALUE__2 OuterEnumIntegerDefaultValue = 2
 )
 
-var allowedOuterEnumIntegerDefaultValueEnumValues = []OuterEnumIntegerDefaultValue{
+// All allowed values of OuterEnumIntegerDefaultValue enum
+var AllowedOuterEnumIntegerDefaultValueEnumValues = []OuterEnumIntegerDefaultValue{
 	0,
 	1,
 	2,

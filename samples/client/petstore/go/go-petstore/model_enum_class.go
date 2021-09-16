@@ -25,7 +25,8 @@ const (
 	XYZ EnumClass = "(xyz)"
 )
 
-var allowedEnumClassEnumValues = []EnumClass{
+// All allowed values of EnumClass enum
+var AllowedEnumClassEnumValues = []EnumClass{
 	"_abc",
 	"-efg",
 	"(xyz)",

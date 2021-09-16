@@ -25,7 +25,8 @@ const (
 	OUTERENUM_DELIVERED OuterEnum = "delivered"
 )
 
-var allowedOuterEnumEnumValues = []OuterEnum{
+// All allowed values of OuterEnum enum
+var AllowedOuterEnumEnumValues = []OuterEnum{
 	"placed",
 	"approved",
 	"delivered",

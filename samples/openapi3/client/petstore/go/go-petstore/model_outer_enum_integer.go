@@ -25,7 +25,8 @@ const (
 	OUTERENUMINTEGER__2 OuterEnumInteger = 2
 )
 
-var allowedOuterEnumIntegerEnumValues = []OuterEnumInteger{
+// All allowed values of OuterEnumInteger enum
+var AllowedOuterEnumIntegerEnumValues = []OuterEnumInteger{
 	0,
 	1,
 	2,

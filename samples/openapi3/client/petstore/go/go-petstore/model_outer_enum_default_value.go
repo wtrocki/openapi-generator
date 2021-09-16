@@ -25,7 +25,8 @@ const (
 	OUTERENUMDEFAULTVALUE_DELIVERED OuterEnumDefaultValue = "delivered"
 )
 
-var allowedOuterEnumDefaultValueEnumValues = []OuterEnumDefaultValue{
+// All allowed values of OuterEnumDefaultValue enum
+var AllowedOuterEnumDefaultValueEnumValues = []OuterEnumDefaultValue{
 	"placed",
 	"approved",
 	"delivered",
